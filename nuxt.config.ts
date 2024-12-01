@@ -1,16 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   
-  // i18n: {
-  //   locales: [
-  //     { code: 'en', name: 'English', file: 'en.json' },
-  //     { code: 'ru', name: 'Русский', file: 'ru.json' }
-  //   ],
-  //   defaultLocale: 'en',
-  //   lazy: true,
-  //   langDir: 'locales/',
-  // },
-  // pages: true,
+  
   css: ['@/assets/styles/global.css', 'bootstrap/dist/css/bootstrap.css'],
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
@@ -22,7 +13,7 @@ export default defineNuxtConfig({
   },
 
   plugins: [
-    // '~/plugins/bootstrap.js'
+   
   ],
   app: {
     head: {
